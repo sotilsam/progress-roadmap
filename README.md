@@ -3,7 +3,7 @@
   <p>A beautifully designed, interactive roadmap and personal task management application built with React, TypeScript, and Vite.</p>
   
   <br />
-  <img src="/public/screenshot.png" alt="Progress Roadmap Demo" width="800" />
+  <img src="/public/Screenshot.png" alt="Progress Roadmap Demo" width="800" />
 </div>
 
 ## 🌟 Features
