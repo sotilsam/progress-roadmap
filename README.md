@@ -1,6 +1,9 @@
 <div align="center">
   <h1>🗺️ Progress Roadmap</h1>
   <p>A beautifully designed, interactive roadmap and personal task management application built with React, TypeScript, and Vite.</p>
+  
+  <br />
+  <img src="/public/screenshot.png" alt="Progress Roadmap Demo" width="800" />
 </div>
 
 ## 🌟 Features
@@ -31,6 +34,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### Installation
 
 1. **Clone the repository**:
+
    ```bash
    # Replace with your actual repository URL
    git clone https://github.com/yourusername/progress-roadmap.git
@@ -38,11 +42,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    ```
 
 2. **Install dependencies**:
+
    ```bash
    npm install
    ```
 
 3. **Run the development server**:
+
    ```bash
    npm run dev
    ```
@@ -79,7 +85,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request i
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License.
