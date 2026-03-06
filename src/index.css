@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-progress-black: #000000;
+  --color-neobrutal-yellow: #fde047; /* Bright yellow */
+  --color-neobrutal-pink: #f9a8d4;   /* Bright pink */
+  --color-neobrutal-purple: #c084fc; /* Bright purple */
+  --color-neobrutal-green: #bef264;  /* Bright lime */
+  --color-neobrutal-blue: #93c5fd;   /* Bright blue */
+  --color-neobrutal-bg: #e5e7eb;     /* Light gray for empty spots */
+
+
+  --font-sans: "Outfit", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#a389ee] text-black font-sans antialiased; /* Bright pastel purple bg */
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .neobrutal-panel {
+    @apply bg-white border-4 border-black rounded-xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)];
+  }
+
+  .neobrutal-btn {
+    @apply border-2 border-black rounded font-bold shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-x-[3px] active:translate-y-[3px] active:shadow-none hover:bg-black/5;
+  }
+
+  .neobrutal-btn-lg {
+    @apply border-4 border-black font-bold shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all active:translate-x-[6px] active:translate-y-[6px] active:shadow-none hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)];
+  }
+}
